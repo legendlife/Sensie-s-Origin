@@ -1,7 +1,11 @@
 # Sensie-s-Origin
 A simple discord bot based on python
 
-##MADE BY Senpai Legend
+# MADE BY Senpai Legend
+
+# Note:
+- Change prefix on line 13 at [bot.py](bot.py)
+- Change token at the end of [bot.py](bot.py)
 
 # WHAT CAN THIS BOT DO?
 - Watch over members
