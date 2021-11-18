@@ -10,7 +10,7 @@ import asyncio
 intents = discord.Intents.default()
 
 intents.members = True
-client = commands.Bot(command_prefix='$', intents = intents)
+client = commands.Bot(command_prefix='Prefix', intents = intents)
 
 
 
@@ -530,4 +530,4 @@ async def reroll(ctx, channel : discord.TextChannel, id_ : int):
 
 
 
-client.run("ODYyNjM5Mjc5NTIzMzY0OTA0.YObRbw.NH4WpgpBlkCJCFxE7qmSX-5Gfzg")
+client.run("Token")
