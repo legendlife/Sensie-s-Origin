@@ -470,7 +470,7 @@ async def giveaway(ctx):
     my_msg = await channel.send(embed = embed)
 
 
-    await my_msg.add_reaction(":tada:")
+    await my_msg.add_reaction("🎉")
 
 
     await asyncio.sleep(time)
