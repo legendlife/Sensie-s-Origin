@@ -406,14 +406,24 @@ def convert(time):
 	
 
 
+
+
+	
+	
+	
+	
+	
+	
+	
+	
 @client.command(aliases=['gw','Gw','Giveaway'])
 @commands.has_permissions(kick_members = True)
 async def giveaway(ctx):
-    await ctx.send("Let's start with this giveaway! Pls answer these questions within 15 seconds!")
+    await ctx.send("Let's start this giveaway! Please answer these questions within 15 seconds!")
 
-    questions = ["Which channel should it be hosted in?", 
+    questions = ["Which channel should the giveaway be hosted in?", 
                 "What should be the duration of the giveaway? (s|m|h|d)",
-                "What is the prize of the giveaway?"]
+                "What will be the prize of the giveaway?"]
 
     answers = []
 
@@ -430,22 +440,20 @@ async def giveaway(ctx):
             return
         else:
             answers.append(msg.content)
-
-# id  
     try:
         c_id = int(answers[0][2:-1])
     except:
-        await ctx.send(f"You didn't mention a channel properly. Do it like this {ctx.channel.mention} next time.")
+        await ctx.send(f"You didn't mention a channel properly. Pls do it like this {ctx.channel.mention} next time!")
         return
 
     channel = client.get_channel(c_id)
 
     time = convert(answers[1])
     if time == -1:
-        await ctx.send(f"You didn't answer the time with a proper unit. Use (s|m|h|d) next time!")
+        await ctx.send(f"You didn't answer the time with a proper unit. Pls use (s|m|h|d) next time!")
         return
     elif time == -2:
-        await ctx.send(f"The time must be an integer. Please enter an integer next time")
+        await ctx.send(f"The time must be an integer. Pls enter an integer next time")
         return            
 
     prize = answers[2]
@@ -462,7 +470,7 @@ async def giveaway(ctx):
     my_msg = await channel.send(embed = embed)
 
 
-    await my_msg.add_reaction("🎉")
+    await my_msg.add_reaction(":tada:")
 
 
     await asyncio.sleep(time)
@@ -476,9 +484,12 @@ async def giveaway(ctx):
 
     winner = random.choice(users)
 
-    await channel.send(f"Congrats!!! {winner.mention} won {prize}!!!")
-
-
+    await channel.send(f"Congratulations! {winner.mention} has won {prize}!")
+	
+	
+	
+	
+	
 	
 @client.command()
 @commands.has_permissions(kick_members = True)
@@ -494,17 +505,23 @@ async def reroll(ctx, channel : discord.TextChannel, id_ : int):
 
     winner = random.choice(users)
 
-    await channel.send(f"Congrats!!! The new winner is {winner.mention}.!!!")   
+    await channel.send(f"Congratulations! The new winner is {winner.mention}.!")    
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 
 	
 	
 
- 
 
-	
-	
 	
 	
 	
