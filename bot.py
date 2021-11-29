@@ -161,7 +161,7 @@ async def on_command_error(ctx,error):
 
 		
 		
-@client.command(aliases=['Snipe','esnipe','Esnipe'])
+@client.command(aliases=['Snipe','esnipe','Esnipe','sNipe'])
 async def snipe(message):
 	if snipe_message_content==None:
 		await message.channel.send("**There is Nothing to snipe here!**")
