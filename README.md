@@ -8,15 +8,15 @@ A simple discord bot based on python
 - Change token at the end of [bot.py](bot.py)
 
 # WHAT CAN THIS BOT DO?
-- Watch over members
-- Play music
-- Do Giveaway
-- Mute/Unmute
-- Kick
-- Ban/Unban
-- Moderation
+- Watch over members!
+- Play music!
+- Do Giveaway!
+- Mute/Unmute!
+- Kick!
+- Ban/Unban!
+- Moderation!
 - Memes!
-- And many many more cool stuffs 
+- And many many more cool stuffs !
 
 
 
