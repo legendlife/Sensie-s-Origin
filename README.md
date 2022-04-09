@@ -1,5 +1,5 @@
 # Sensie-s-Origin
-A simple discord bot based on python
+A simple discord bot based on python.
 
 # MADE BY Senpai Legend
 
