@@ -2,6 +2,7 @@
 A simple discord bot based on python.
 
 # MADE BY Senpai Legend
+> (this project is still under development, so if you find any errors do contact me)
 
 # Note:
 - Change prefix on line 13 at [bot.py](bot.py)
@@ -9,7 +10,6 @@ A simple discord bot based on python.
 
 # WHAT CAN THIS BOT DO?
 - Watch over members!
-- Play music!
 - Do Giveaway!
 - Mute/Unmute!
 - Kick!
