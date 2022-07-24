@@ -2,7 +2,7 @@
 A simple discord bot based on python.
 
 # MADE BY Senpai Legend
-> this project is still under development, so if you find any errors do contact me
+> this project is unmainted, if you want to work with it pls do contact me.
 
 # Note:
 - Change prefix on line 13 at [bot.py](bot.py)
